@@ -3,6 +3,39 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data files (large, regenerable — don't commit these)
+*.csv
+*.parquet
+*.pkl
+*.h5
+data/raw/
+data/processed/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env
+
 # C extensions
 *.so
 
@@ -216,3 +249,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# claude
+.claude
