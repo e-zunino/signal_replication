@@ -1,10 +1,31 @@
-# signal_replication
-A small project that aims at studying some basic alpha signals on stocks currently (09/2026) listed in the s&p500 in the period 2010-2025.
+# Signal replication
 
-The aim of the project is developing familiarity with the basic data analysis that is required for a quantitative research role.
+*Short summary*
 
-Developed with Python 3.13.5.
+## Project structure and reproduction
 
-## Known shortcomings and assumptions
+## Motivation
 
-We are aware that not all currently listed stocks have been in the index for the whole period we are considering and that some have been removed, exposing our analysis to survivorship bias. For the first iteration of this project, we are going to accept this fact in order to simplify the analysis.
+## Data
+
+## Methodology
+
+## Results
+
+## Interpretation
+
+## Limitations
+
+- survivorship bias
+- no transaction costs
+- small universe
+- overlapping windows
+
+## TO DO LIST
+
+- Add tests for each function
+- Complete pyproject.toml with a list of dependencies
+- Remove the hardcoded home-directory path in `load_prices`
+- Insert type hints throughout the code
+- Cost-aware backtest
+- Study other signals
